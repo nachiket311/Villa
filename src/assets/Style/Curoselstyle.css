@@ -1,0 +1,206 @@
+.container-curosel {
+  height: 80%;
+  width: 100%;
+  position: relative;
+}
+
+.curosel-main {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-none {
+  display: none;
+}
+
+.cimage {
+  width: 100%;
+}
+
+.Cimage-hidden {
+  display: none;
+}
+
+.arrow-main {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+
+.arrow {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 98;
+  position: absolute;
+}
+
+.fa-chevron-left {
+  margin-left: 4%;
+}
+
+.fa-chevron-right {
+  margin-right: 4%;
+}
+
+.i-color {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: large;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.i-color:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dots-main {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45%;
+  margin-right: 44%;
+  gap: 10px;
+}
+
+.dots {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: orangered;
+}
+
+.dots-hidden {
+  background: white;
+}
+
+.header-main {
+  height: 54%;
+  width: 50%;
+  color: white;
+  position: absolute;
+}
+
+.title {
+  height: 10%;
+  width: 40%;
+  font-weight: 500;
+  font-size: large;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city {
+  color: black;
+}
+
+.country {
+  color: orangered;
+}
+
+.text {
+  display: flex;
+  font-size: 35px;
+  align-items: start;
+}
+
+@media screen and (max-width: 1088px) {
+  .text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 933px) {
+  .text {
+    font-size: 25px;
+  }
+
+  .title p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .text {
+    font-size: 20px;
+  }
+
+  .title p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 621px) {
+  .text {
+    font-size: 15px;
+  }
+
+  .title p {
+    font-size: 10px;
+  }
+
+  .i-color {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .text {
+    font-size: 12px;
+  }
+
+  .title {
+    width: 45%;
+  }
+
+  .dots {
+    height: 7px;
+    width: 7px;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .text {
+    font-size: 10px;
+  }
+
+  .title {
+    width: 50%;
+  }
+
+  .i-color {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .text {
+    font-size: 10px;
+  }
+
+  .title p {
+    font-size: 7px;
+  }
+}

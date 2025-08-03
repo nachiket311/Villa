@@ -1,0 +1,169 @@
+.exp-container {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  margin: 5% 0;
+}
+
+.Exp-main {
+  height: 135px;
+  width: 20%;
+  position: relative;
+}
+
+.Exp-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 90%;
+  background-color: rgb(235, 222, 194);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.Card-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Number {
+  height: 50%;
+  width: 40%;
+  font-size: xx-large;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+}
+
+.Content {
+  height: 50%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.top-Round {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: orangered;
+}
+
+/* For 1660 or Up to 1919 */
+@media only screen and (max-width: 1919px) {
+}
+
+/* For 1440 or Up to 1659 */
+@media only screen and (max-width: 1659px) {
+}
+
+/* For 1366 or Up to 1439 */
+@media only screen and (max-width: 1439px) {
+  .Content {
+    font-size: larger;
+  }
+}
+
+/* For 1280 or Up to 1365 */
+@media only screen and (max-width: 1365px) {
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width: 1279px) {
+  .exp-container {
+    gap: 8%;
+  }
+  .Exp-main {
+    width: 25%;
+  }
+}
+
+/* For 960 or Up to 1023 */
+@media only screen and (max-width: 1023px) {
+}
+
+/* For 800 or Up to 959 */
+@media only screen and (max-width: 959px) {
+  .exp-container {
+    gap: 4%;
+  }
+  .Exp-main {
+    width: 30%;
+  }
+}
+
+/* For 768 or Up to 799 */
+@media only screen and (max-width: 799px) {
+}
+
+/* /--------- For Tablate and Mobile Device -----------/ */
+
+/* For 640 or Up to 767 */
+@media only screen and (max-width: 767px) {
+  .Exp-main {
+    height: 29%;
+    width: 40%;
+  }
+
+  .exp-container {
+    height: 486px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0%;
+  }
+
+  .Exp-card-container {
+    height: 100px;
+    width: 92%;
+  }
+
+  .top-Round {
+    height: 70px;
+    width: 70px;
+    margin-top: 0;
+  }
+}
+
+/* For 601 or Up to 639 */
+@media only screen and (max-width: 639px) {
+  .Exp-main {
+    width: 80%;
+  }
+
+  .exp-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+/* For 540 or Up to 609 */
+@media only screen and (max-width: 600px) {
+}
+
+/* For 380 or Up to 479 */
+@media only screen and (max-width: 479px) {
+}
+
+/* For 360 or Up to 379 */
+@media only screen and (max-width: 379px) {
+}
+
+/* For 320 or Up to 359 */
+@media only screen and (max-width: 359px) {
+}

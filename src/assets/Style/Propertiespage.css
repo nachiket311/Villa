@@ -1,0 +1,130 @@
+.propertiespage-container {
+  height: 268px;
+  width: 100%;
+  padding: 6% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/page-heading-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-location {
+  font-size: medium;
+  font-weight: 500;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-heading {
+  font-size: xx-large;
+  font-weight: 800;
+  color: white;
+}
+
+.Propertiespage-button {
+  height: 255px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 3%;
+  gap: 20px;
+}
+
+.Propertiespage-button-section {
+  height: 50px;
+  width: 140px;
+  font-size: medium;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Propertiespage-button-section:hover {
+  background-color: orangered;
+  color: white;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+}
+
+.Active {
+  background-color: orangered;
+}
+
+/* For 1660 or Up to 1919 */
+@media only screen and (max-width: 1919px) {
+}
+
+/* For 1440 or Up to 1659 */
+@media only screen and (max-width: 1659px) {
+}
+
+/* For 1366 or Up to 1439 */
+@media only screen and (max-width: 1439px) {
+}
+
+/* For 1280 or Up to 1365 */
+@media only screen and (max-width: 1365px) {
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width: 1279px) {
+}
+
+/* For 960 or Up to 1023 */
+@media only screen and (max-width: 1023px) {
+}
+
+/* For 800 or Up to 959 */
+@media only screen and (max-width: 959px) {
+  .Propertiespage-button {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+}
+
+/* For 768 or Up to 799 */
+@media only screen and (max-width: 799px) {
+}
+
+/* /--------- For Tablate and Mobile Device -----------/ */
+
+/* For 640 or Up to 767 */
+@media only screen and (max-width: 767px) {
+}
+
+/* For 601 or Up to 639 */
+@media only screen and (max-width: 639px) {
+}
+
+/* For 540 or Up to 609 */
+@media only screen and (max-width: 600px) {
+}
+
+/* For 380 or Up to 479 */
+@media only screen and (max-width: 479px) {
+}
+
+/* For 360 or Up to 379 */
+@media only screen and (max-width: 379px) {
+  .Propertiespage-button {
+    height: max-content;
+    padding-top: 7px;
+  }
+
+  .Propertiespage-button-section {
+    width: 100%;
+  }
+}
+
+/* For 320 or Up to 359 */
+@media only screen and (max-width: 359px) {
+}

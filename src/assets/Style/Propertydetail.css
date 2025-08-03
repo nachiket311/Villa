@@ -1,0 +1,240 @@
+.propertiesdetail-container {
+  height: 268px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/page-heading-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-location {
+  height: 45px;
+  width: 220px;
+  font-size: medium;
+  font-weight: 500;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-heading {
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+}
+
+.top-property-detail {
+  height: 695px;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-property-detail-image {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-single {
+  height: 80%;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.detail-container {
+  height: 80%;
+  width: 25%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 27px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.detail-main {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border-bottom: 1px solid rgba(225, 202, 202, 0.99);
+}
+
+.detail-data {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 2px;
+}
+
+.detail-depth {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 30px;
+}
+
+.detail-title {
+  font-weight: 800;
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+.detail-content {
+  font-size: medium;
+  color: grey;
+}
+
+.detail-text-main {
+  height: max-content;
+  width: 85%;
+  margin: auto;
+}
+
+.detail-text {
+  width: 70%;
+}
+
+.detail-text-top {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.button-detail {
+  height: 35px;
+  width: 100px;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: pink;
+}
+
+.detail-text > h2 {
+  font-size: large;
+}
+
+.detail-para {
+  font-size: medium;
+}
+
+/* For 1660 or Up to 1919 */
+@media only screen and (max-width: 1919px) {
+}
+
+/* For 1440 or Up to 1659 */
+@media only screen and (max-width: 1659px) {
+}
+
+/* For 1366 or Up to 1439 */
+@media only screen and (max-width: 1439px) {
+}
+
+/* For 1280 or Up to 1365 */
+@media only screen and (max-width: 1365px) {
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width: 1279px) {
+}
+
+/* For 960 or Up to 1023 */
+@media only screen and (max-width: 1023px) {
+}
+
+/* For 800 or Up to 959 */
+@media only screen and (max-width: 959px) {
+  .detail-image {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* For 768 or Up to 799 */
+@media only screen and (max-width: 799px) {
+}
+
+/* /--------- For Tablate and Mobile Device -----------/ */
+
+/* For 640 or Up to 767 */
+@media only screen and (max-width: 767px) {
+  .top-property-detail {
+    height: 1507px;
+    flex-direction: column;
+  }
+
+  .top-property-detail-image {
+    width: 80%;
+  }
+
+  .detail-text-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .detail-container {
+    height: 100%;
+    width: 80%;
+  }
+
+  .detail-main {
+    width: 100%;
+  }
+
+  .detail-data {
+    justify-content: space-evenly;
+  }
+
+  .detail-image {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+/* For 601 or Up to 639 */
+@media only screen and (max-width: 639px) {
+}
+
+/* For 540 or Up to 609 */
+@media only screen and (max-width: 600px) {
+}
+
+/* For 380 or Up to 479 */
+@media only screen and (max-width: 479px) {
+  .detail-image {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+/* For 360 or Up to 379 */
+@media only screen and (max-width: 379px) {
+}
+
+/* For 320 or Up to 359 */
+@media only screen and (max-width: 359px) {
+  .detail-image {
+    height: 50px;
+    width: 50px;
+  }
+}

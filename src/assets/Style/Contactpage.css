@@ -1,0 +1,150 @@
+.contactuspage-container {
+  height: 268px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/page-heading-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-location {
+  height: 45px;
+  width: 175px;
+  font-size: medium;
+  font-weight: 500;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-heading {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+}
+
+.main {
+  height: 30%;
+  width: 50%;
+}
+
+.contact-page {
+  height: 764px;
+  width: 85%;
+  margin: 5% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-page-main {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main > p {
+  font-size: medium;
+  margin: 5% 0;
+}
+
+.map-contact {
+  height: 556px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.map-ap {
+  height: 100%;
+  width: 85%;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+/* For 1660 or Up to 1919 */
+@media only screen and (max-width: 1919px) {
+}
+
+/* For 1440 or Up to 1659 */
+@media only screen and (max-width: 1659px) {
+}
+
+/* For 1366 or Up to 1439 */
+@media only screen and (max-width: 1439px) {
+}
+
+/* For 1280 or Up to 1365 */
+@media only screen and (max-width: 1365px) {
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width: 1279px) {
+}
+
+/* For 960 or Up to 1023 */
+@media only screen and (max-width: 1023px) {
+}
+
+/* For 800 or Up to 959 */
+@media only screen and (max-width: 959px) {
+  .contact-page {
+    width: 90%;
+  }
+}
+
+/* For 768 or Up to 799 */
+@media only screen and (max-width: 799px) {
+}
+
+/* /--------- For Tablate and Mobile Device -----------/ */
+
+/* For 640 or Up to 767 */
+@media only screen and (max-width: 767px) {
+  .contact-page {
+    height: 1596px;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .main {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* For 601 or Up to 639 */
+@media only screen and (max-width: 639px) {
+}
+
+/* For 540 or Up to 609 */
+@media only screen and (max-width: 600px) {
+  .contact-page {
+    height: 1458px;
+  }
+
+  .main {
+    height: 80%;
+  }
+}
+
+/* For 380 or Up to 479 */
+@media only screen and (max-width: 479px) {
+}
+
+/* For 360 or Up to 379 */
+@media only screen and (max-width: 379px) {
+}
+
+/* For 320 or Up to 359 */
+@media only screen and (max-width: 359px) {
+}

@@ -1,0 +1,110 @@
+.video-container {
+  height: 861px;
+  width: 100%;
+  background-image: url(../img/video-bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.video-background {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-heading {
+  font-size: medium;
+  color: orangered;
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.video-content {
+  width: 500px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.video-content h2 {
+  font-size: xx-large;
+}
+
+.video-frame {
+  height: 60%;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* For 1660 or Up to 1919 */
+@media only screen and (max-width: 1919px) {
+}
+
+/* For 1440 or Up to 1659 */
+@media only screen and (max-width: 1659px) {
+}
+
+/* For 1366 or Up to 1439 */
+@media only screen and (max-width: 1439px) {
+}
+
+/* For 1280 or Up to 1365 */
+@media only screen and (max-width: 1365px) {
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width: 1279px) {
+}
+
+/* For 960 or Up to 1023 */
+@media only screen and (max-width: 1023px) {
+}
+
+/* For 800 or Up to 959 */
+@media only screen and (max-width: 959px) {
+  .video-container {
+    height: 547px;
+  }
+}
+
+/* For 768 or Up to 799 */
+@media only screen and (max-width: 799px) {
+}
+
+/* /--------- For Tablate and Mobile Device -----------/ */
+
+/* For 640 or Up to 767 */
+@media only screen and (max-width: 767px) {
+  .video-container {
+    height: 670px;
+  }
+}
+
+/* For 601 or Up to 639 */
+@media only screen and (max-width: 639px) {
+}
+
+/* For 540 or Up to 609 */
+@media only screen and (max-width: 600px) {
+  .video-container {
+    height: 547px;
+  }
+}
+
+/* For 380 or Up to 479 */
+@media only screen and (max-width: 479px) {
+  .video-content {
+    width: 80%;
+  }
+}
+
+/* For 360 or Up to 379 */
+@media only screen and (max-width: 379px) {
+}
+
+/* For 320 or Up to 359 */
+@media only screen and (max-width: 359px) {
+}

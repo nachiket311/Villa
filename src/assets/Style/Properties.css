@@ -1,0 +1,267 @@
+.Properties-container {
+  height: max-content;
+  width: 100%;
+  margin: 5% 0;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container {
+  height: max-content;
+  width: 85%;
+  margin: auto;
+  flex-direction: column;
+}
+
+.Properties-heading {
+  width: 50%;
+  font-size: xx-large;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Properties-heading > p {
+  color: orangered;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.Bottom-container {
+  height: max-content;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Propertycard-container {
+  height: max-content;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.section1 {
+  height: 47%;
+  width: 90%;
+  margin-top: 5%;
+}
+
+.section2 {
+  height: 47%;
+  width: 90%;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.lower {
+  height: 70%;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.txt-color {
+  font-size: medium;
+  font-weight: 700;
+}
+
+.txt-span {
+  font-size: medium;
+  font-weight: normal;
+  color: gray;
+}
+
+.type {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-type {
+  padding: 1px 5px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 500;
+  text-align: center;
+  background-color: pink;
+}
+
+.price {
+  height: 80%;
+  width: 60%;
+  color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: large;
+  font-weight: 700;
+}
+
+.address {
+  height: 25%;
+  font-size: large;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-top {
+  height: 50%;
+  display: flex;
+  gap: 30px;
+}
+
+.bottom-info {
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 25px;
+}
+.button-card {
+  height: 30%;
+  width: 100%;
+  margin: 5% 0;
+}
+
+.Button-Card {
+  height: 40px;
+  width: 150px;
+  font-size: medium;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.Button-Card:hover {
+  transition: ease-in-out;
+  transition-duration: 500ms;
+  background-color: orangered;
+}
+
+/* For 1660 or Up to 1919 */
+@media only screen and (max-width: 1919px) {
+}
+
+/* For 1440 or Up to 1659 */
+@media only screen and (max-width: 1659px) {
+}
+
+/* For 1366 or Up to 1439 */
+@media only screen and (max-width: 1439px) {
+}
+
+/* For 1280 or Up to 1365 */
+@media only screen and (max-width: 1365px) {
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width: 1279px) {
+  .Properties-heading {
+    width: 60%;
+  }
+}
+
+/* For 960 or Up to 1023 */
+@media only screen and (max-width: 1023px) {
+}
+
+/* For 800 or Up to 959 */
+@media only screen and (max-width: 959px) {
+  .Propertycard-container {
+    width: 45%;
+  }
+
+  .top-container {
+    height: max-content;
+  }
+}
+
+/* For 768 or Up to 799 */
+@media only screen and (max-width: 799px) {
+}
+
+/* /--------- For Tablate and Mobile Device -----------/ */
+
+/* For 640 or Up to 767 */
+@media only screen and (max-width: 767px) {
+  .Propertycard-container {
+    width: 100%;
+  }
+}
+
+/* For 601 or Up to 639 */
+@media only screen and (max-width: 639px) {
+}
+
+/* For 540 or Up to 609 */
+@media only screen and (max-width: 600px) {
+  .Properties-heading {
+    width: 82%;
+  }
+
+  .info-top {
+    gap: 24px;
+  }
+
+  .bottom-info {
+    gap: 19px;
+  }
+}
+
+/* For 380 or Up to 479 */
+@media only screen and (max-width: 479px) {
+  .button-type {
+    width: 40%;
+  }
+  .info-top {
+    gap: 10px;
+  }
+
+  .bottom-info {
+    gap: 5px;
+  }
+}
+
+/* For 360 or Up to 379 */
+@media only screen and (max-width: 379px) {
+  .Properties-heading {
+    font-size: x-large;
+  }
+  .button-type {
+    width: 50%;
+  }
+
+  .info-top {
+    height: 33%;
+    justify-content: space-evenly;
+  }
+
+  .bottom-info {
+    height: 66%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+/* For 320 or Up to 359 */
+@media only screen and (max-width: 359px) {
+}

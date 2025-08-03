@@ -1,0 +1,185 @@
+.Nav-main {
+  height: 90px;
+  width: 100%;
+  background: white;
+  color: black;
+  position: relative;
+  top: 0;
+}
+
+.txt-decor {
+  text-decoration: none;
+}
+
+.ls-stl {
+  list-style: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nav-sub {
+  height: 60px;
+  width: 20%;
+}
+
+.Nav-sub span {
+  color: blue;
+}
+
+.Nav-sub h1 {
+  cursor: pointer;
+}
+
+.Navlink {
+  height: 60px;
+  width: 70%;
+}
+
+.navbtn {
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  transition: ease-in-out;
+  transition-duration: 400ms;
+}
+
+.Navlink ul {
+  list-style: none;
+  padding: 0;
+  gap: 45px;
+  flex-direction: row;
+}
+
+.link-list {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: ease-in-out;
+  transition-duration: 400ms;
+}
+
+.link-list:hover {
+  color: orangered;
+}
+
+.active {
+  color: orangered;
+}
+
+.schedual {
+  height: 40px;
+  width: 170px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  justify-content: space-between;
+  transition: ease-in-out;
+  transition-duration: 400ms;
+  cursor: pointer;
+}
+
+.schedual:hover {
+  color: orangered;
+}
+
+.schedual span {
+  height: 40px;
+  width: 40px;
+  background-color: orangered;
+  border-radius: 50%;
+  color: white;
+}
+
+.tour {
+  margin-right: 10px;
+}
+
+.hemburger {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 1047px) {
+  .Navlink ul {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .Navlink ul {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 904px) {
+  .Navlink ul {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 876px) {
+  .Navlink ul {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 847px) {
+  .Navlink ul {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 818px) {
+  .Navlink {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hemburger {
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .activeHemburger {
+    display: none;
+  }
+
+  .Nav-sub {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+
+  .Navlink {
+    height: 250px;
+    width: 100%;
+    margin-top: 340px;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    z-index: 99;
+  }
+
+  .Navlink ul {
+    flex-direction: column;
+  }
+
+  .navbtn {
+    width: 50vw;
+    margin-right: 10px;
+  }
+
+  .navitm {
+    position: relative;
+    left: 0;
+  }
+}

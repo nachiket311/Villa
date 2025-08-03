@@ -1,0 +1,319 @@
+.Contact-container {
+  height: max-content;
+  width: 100%;
+  background-image: url(../img/contact-bg.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.Contact-heading {
+  height: max-content;
+  width: 100%;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-header {
+  color: orangered;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.top-content {
+  color: white;
+  width: 30%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.contact-bottom {
+  height: max-content;
+  width: 85%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-container {
+  height: 100%;
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.map {
+  height: 500px;
+  width: 100%;
+  background-color: gray;
+}
+
+.India {
+  height: 100%;
+  width: 100%;
+}
+
+.phone-container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.common {
+  height: 70%;
+  width: 48%;
+  margin: 5% 0;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.con-phone {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-img {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-txt {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.con-phonenumber {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.con-phone-txt {
+  font-size: large;
+  color: gray;
+}
+
+.form-container {
+  height: 100%;
+  width: 37%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.input-heading {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  height: 40px;
+  font-size: large;
+}
+
+.field {
+  height: 40px;
+  width: 95%;
+  border-radius: 50px;
+  background-color: whitesmoke;
+  border: none;
+  color: gray;
+  padding-left: 20px;
+  font-size: large;
+}
+
+.textarea {
+  height: 140px;
+  width: 90%;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  border: none;
+  color: gray;
+  padding: 20px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.form-button {
+  height: 50px;
+  width: 160px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  margin-top: 35px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: orangered;
+  color: white;
+  transition: ease-in-out;
+  transition-duration: 400ms;
+}
+
+.form-button:disabled {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: no-drop;
+}
+
+/* For 1660 or Up to 1919 */
+@media only screen and (max-width: 1919px) {
+}
+
+/* For 1440 or Up to 1659 */
+@media only screen and (max-width: 1659px) {
+}
+
+/* For 1366 or Up to 1439 */
+@media only screen and (max-width: 1439px) {
+}
+
+/* For 1280 or Up to 1365 */
+@media only screen and (max-width: 1365px) {
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width: 1279px) {
+}
+
+/* For 960 or Up to 1023 */
+@media only screen and (max-width: 1023px) {
+  .common {
+    height: 60%;
+  }
+
+  .con-phone {
+    flex-direction: column;
+  }
+
+  .contact-icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .con-txt {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+/* For 800 or Up to 959 */
+@media only screen and (max-width: 959px) {
+  .textarea {
+    width: 87%;
+  }
+}
+
+/* For 768 or Up to 799 */
+@media only screen and (max-width: 799px) {
+}
+
+/* /--------- For Tablate and Mobile Device -----------/ */
+
+/* For 640 or Up to 767 */
+@media only screen and (max-width: 767px) {
+  .phone-container {
+    height: 60%;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .common {
+    height: 40%;
+    width: 100%;
+  }
+
+  .con-phone {
+    flex-direction: row;
+  }
+
+  .con-txt {
+    align-items: start;
+  }
+
+  .contact-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .textarea {
+    width: 90%;
+  }
+
+  .contact-bottom {
+    height: 250vh;
+    flex-direction: column;
+  }
+
+  .map-container {
+    width: 100%;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+}
+
+/* For 601 or Up to 639 */
+@media only screen and (max-width: 639px) {
+}
+
+/* For 540 or Up to 609 */
+@media only screen and (max-width: 600px) {
+  .top-content {
+    width: 60%;
+  }
+
+  .phone-container {
+    justify-content: space-evenly;
+  }
+
+  .common {
+    height: 30%;
+  }
+}
+
+/* For 380 or Up to 479 */
+@media only screen and (max-width: 479px) {
+}
+
+/* For 360 or Up to 379 */
+@media only screen and (max-width: 379px) {
+  .common {
+    height: 25%;
+  }
+}
+
+/* For 320 or Up to 359 */
+@media only screen and (max-width: 359px) {
+  .textarea {
+    width: 85%;
+  }
+}

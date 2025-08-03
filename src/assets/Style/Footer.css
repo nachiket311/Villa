@@ -1,0 +1,72 @@
+.footer-container {
+  height: 15vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: large;
+  text-align: center;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+}
+
+/* For 1660 or Up to 1919 */
+@media only screen and (max-width: 1919px) {
+}
+
+/* For 1440 or Up to 1659 */
+@media only screen and (max-width: 1659px) {
+}
+
+/* For 1366 or Up to 1439 */
+@media only screen and (max-width: 1439px) {
+}
+
+/* For 1280 or Up to 1365 */
+@media only screen and (max-width: 1365px) {
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width: 1279px) {
+}
+
+/* For 960 or Up to 1023 */
+@media only screen and (max-width: 1023px) {
+}
+
+/* For 800 or Up to 959 */
+@media only screen and (max-width: 959px) {
+}
+
+/* For 768 or Up to 799 */
+@media only screen and (max-width: 799px) {
+}
+
+/* /--------- For Tablate and Mobile Device -----------/ */
+
+/* For 640 or Up to 767 */
+@media only screen and (max-width: 767px) {
+}
+
+/* For 601 or Up to 639 */
+@media only screen and (max-width: 639px) {
+}
+
+/* For 540 or Up to 609 */
+@media only screen and (max-width: 600px) {
+}
+
+/* For 380 or Up to 479 */
+@media only screen and (max-width: 479px) {
+}
+
+/* For 360 or Up to 379 */
+@media only screen and (max-width: 379px) {
+}
+
+/* For 320 or Up to 359 */
+@media only screen and (max-width: 359px) {
+}
