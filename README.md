@@ -4,7 +4,7 @@ This is a simple React project built using **Create React App (CRA)** and **cust
 
 ## Live Demo
 
-**Deploying Soon ...**
+[Click here to view it live](https://nacs-villa-clone.netlify.app/) 
 
 ## Tech Stack
 
@@ -15,7 +15,7 @@ This is a simple React project built using **Create React App (CRA)** and **cust
 ## Installation (Run Locally)
 
 ```bash
-git clone **Add Link Soon...**
+git clone https://github.com/nachiket311/Villa.git
 cd Villa
 npm install
 npm start
